@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Hodina", "1Hodina\1Hodina.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{3932361C-1E45-4405-9877-55862B73950E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Hodina", "2Hodina\2Hodina.csproj", "{D9442E10-7E95-4613-BF66-1141B57B3BBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{3932361C-1E45-4405-9877-55862B73950E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3932361C-1E45-4405-9877-55862B73950E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3932361C-1E45-4405-9877-55862B73950E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9442E10-7E95-4613-BF66-1141B57B3BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9442E10-7E95-4613-BF66-1141B57B3BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9442E10-7E95-4613-BF66-1141B57B3BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9442E10-7E95-4613-BF66-1141B57B3BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
