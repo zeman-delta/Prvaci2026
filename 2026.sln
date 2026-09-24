@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uvod", "Uvod\Uvod.csproj", "{8A5D3FC6-4AF1-4868-A007-5B5A92853BF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Hodina", "1Hodina\1Hodina.csproj", "{63E06F25-B71E-4953-8744-B9371EE8A1F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{3932361C-1E45-4405-9877-55862B73950E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{8A5D3FC6-4AF1-4868-A007-5B5A92853BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A5D3FC6-4AF1-4868-A007-5B5A92853BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A5D3FC6-4AF1-4868-A007-5B5A92853BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E06F25-B71E-4953-8744-B9371EE8A1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E06F25-B71E-4953-8744-B9371EE8A1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E06F25-B71E-4953-8744-B9371EE8A1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E06F25-B71E-4953-8744-B9371EE8A1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3932361C-1E45-4405-9877-55862B73950E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3932361C-1E45-4405-9877-55862B73950E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3932361C-1E45-4405-9877-55862B73950E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3932361C-1E45-4405-9877-55862B73950E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
