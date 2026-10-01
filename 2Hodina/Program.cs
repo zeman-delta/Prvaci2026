@@ -8,8 +8,24 @@ class Program
         double a = double.Parse(Console.ReadLine());
         Console.WriteLine("Zadej 2. cislo:");
         double b = double.Parse(Console.ReadLine());
-
-        double c = a + b;
+        Console.WriteLine("zadej operaci:");
+        char operace = char.Parse(Console.ReadLine());
+        
+        double c;
+        
+        if (operace == '+')
+        {
+            c = a + b;
+        } 
+        else if (operace == '-')
+        {
+            c = a - b;
+        }
+        else
+        {
+            c = 0;
+            Console.WriteLine("zadána neplatná operace.");
+        }
 
         Console.WriteLine($"Součet je {c}");
     }
