@@ -43,3 +43,15 @@ a opakuje to tak dlouho, dokud nedostane platnou hodnotu.
 ## Úloha 15
 Uživatel postupně zadává čísla. Jakmile zadá 0, zadávání skončí
 a program vypíše součet všech zadaných čísel.
+
+# Bonus
+Kdo si nechce udělat v hlavě guláš před testem a být napřed, tak toto nedělá. 
+
+## Úloha 16 
+Vypiš čísla od 1 do 10. každé na jeden řádek za použití jedné `cw`.
+
+## Úloha 17
+Vypiš čísla od 10 do 1. každé na jeden řádek za použití jedné `cw` a bez použítí `\n`.
+
+## Úloha 18
+vytvoř nekonečnou smyčkukterá se ukončí při zadání čísla jejož mocnina je 0. 
