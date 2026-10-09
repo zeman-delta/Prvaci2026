@@ -7,8 +7,8 @@ Algoritmy jsou zapsané jako vývojové diagramy, tak jak bychom je sestavili v 
 | Tvar | RAPTOR | Význam |
 |---|---|---|
 | ovál | Start / End | začátek a konec programu |
-| kosodélník nakloněný **doprava**, modrý | Input (GET) | načtení hodnoty od uživatele |
-| kosodélník nakloněný **doleva**, červený | Output (PUT) | výpis na obrazovku |
+| kosodélník, modrý | Input (GET) | načtení hodnoty od uživatele |
+| kosodélník, červený | Output (PUT) | výpis na obrazovku |
 | obdélník | Assignment | přiřazení do proměnné |
 | kosočtverec | Selection | rozhodnutí, větve **Ano** / **Ne** |
 
@@ -30,7 +30,7 @@ flowchart TD
     S([Start]) --> V1[/"Zadej stranu a"/]
     V1 --> V2[/"Zadej stranu b"/]
     V2 --> P["obvod ← 2 * (a + b)"]
-    P --> O[\"Vypiš obvod"\]
+    P --> O[/"Vypiš obvod"/]
     O --> K([Konec])
 
     classDef vstup stroke:#1e88e5,stroke-width:2px
@@ -52,7 +52,7 @@ flowchart TD
     V --> D{"cena ≥ 2000 ?"}
     D -->|Ano| A["vysledna ← cena * 0,9"]
     D -->|Ne| B["vysledna ← cena"]
-    A --> O[\"Vypiš vysledna"\]
+    A --> O[/"Vypiš vysledna"/]
     B --> O
     O --> K([Konec])
 
@@ -74,10 +74,10 @@ flowchart TD
     S([Start]) --> V1[/"Zadej číslo a"/]
     V1 --> V2[/"Zadej číslo b"/]
     V2 --> D1{"a > b ?"}
-    D1 -->|Ano| O1[\"Vypiš: větší je a"\]
+    D1 -->|Ano| O1[/"Vypiš: větší je a"/]
     D1 -->|Ne| D2{"a < b ?"}
-    D2 -->|Ano| O2[\"Vypiš: větší je b"\]
-    D2 -->|Ne| O3[\"Vypiš: čísla jsou stejná"\]
+    D2 -->|Ano| O2[/"Vypiš: větší je b"/]
+    D2 -->|Ne| O3[/"Vypiš: čísla jsou stejná"/]
     O1 --> K([Konec])
     O2 --> K
     O3 --> K
@@ -101,8 +101,8 @@ Pokud student získal alespoň 50 bodů, program zobrazí „Splnil“. V opačn
 flowchart TD
     S([Start]) --> V[/"Zadej počet bodů"/]
     V --> D{"body ≥ 50 ?"}
-    D -->|Ano| O1[\"Vypiš: Splnil"\]
-    D -->|Ne| O2[\"Vypiš: Nesplnil"\]
+    D -->|Ano| O1[/"Vypiš: Splnil"/]
+    D -->|Ne| O2[/"Vypiš: Nesplnil"/]
     O1 --> K([Konec])
     O2 --> K
 
@@ -125,7 +125,7 @@ flowchart TD
     S([Start]) --> V[/"Zadej číslo od 1 do 10"/]
     V --> D{"cislo ≥ 1 a zároveň cislo ≤ 10 ?"}
     D -->|Ne| V
-    D -->|Ano| O[\"Vypiš: zadáno platné číslo"\]
+    D -->|Ano| O[/"Vypiš: zadáno platné číslo"/]
     O --> K([Konec])
 
     classDef vstup stroke:#1e88e5,stroke-width:2px
@@ -147,7 +147,7 @@ a výsledek vypíše. Platí vztah F = C * 1,8 + 32.
 flowchart TD
     S([Start]) --> V[/"Zadej teplotu ve stupních Celsia"/]
     V --> P["F ← C * 1,8 + 32"]
-    P --> O[\"Vypiš F"\]
+    P --> O[/"Vypiš F"/]
     O --> K([Konec])
 
     classDef vstup stroke:#1e88e5,stroke-width:2px
@@ -168,7 +168,7 @@ flowchart TD
     S([Start]) --> V[/"Zadej poloměr r"/]
     V --> P1["obvod ← 2 * π * r"]
     P1 --> P2["obsah ← π * r * r"]
-    P2 --> O[\"Vypiš obvod a obsah"\]
+    P2 --> O[/"Vypiš obvod a obsah"/]
     O --> K([Konec])
 
     classDef vstup stroke:#1e88e5,stroke-width:2px
@@ -188,8 +188,8 @@ flowchart TD
     S([Start]) --> V[/"Zadej celé číslo n"/]
     V --> P["zbytek ← n mod 2"]
     P --> D{"zbytek = 0 ?"}
-    D -->|Ano| O1[\"Vypiš: číslo je sudé"\]
-    D -->|Ne| O2[\"Vypiš: číslo je liché"\]
+    D -->|Ano| O1[/"Vypiš: číslo je sudé"/]
+    D -->|Ne| O2[/"Vypiš: číslo je liché"/]
     O1 --> K([Konec])
     O2 --> K
 
@@ -209,10 +209,10 @@ Uživatel zadá číslo. Program vypíše, jestli je kladné, záporné, nebo nu
 flowchart TD
     S([Start]) --> V[/"Zadej číslo n"/]
     V --> D1{"n > 0 ?"}
-    D1 -->|Ano| O1[\"Vypiš: kladné"\]
+    D1 -->|Ano| O1[/"Vypiš: kladné"/]
     D1 -->|Ne| D2{"n < 0 ?"}
-    D2 -->|Ano| O2[\"Vypiš: záporné"\]
-    D2 -->|Ne| O3[\"Vypiš: nula"\]
+    D2 -->|Ano| O2[/"Vypiš: záporné"/]
+    D2 -->|Ne| O3[/"Vypiš: nula"/]
     O1 --> K([Konec])
     O2 --> K
     O3 --> K
@@ -236,7 +236,7 @@ flowchart TD
     V --> D{"vek < 15 nebo vek ≥ 65 ?"}
     D -->|Ano| A["cena ← 90"]
     D -->|Ne| B["cena ← 180"]
-    A --> O[\"Vypiš cenu vstupenky"\]
+    A --> O[/"Vypiš cenu vstupenky"/]
     B --> O
     O --> K([Konec])
 
@@ -258,7 +258,7 @@ flowchart TD
     S([Start]) --> V[/"Zadej počet minut"/]
     V --> P1["hodiny ← floor(minuty / 60)"]
     P1 --> P2["zbyleMinuty ← minuty mod 60"]
-    P2 --> O[\"Vypiš hodiny a zbyleMinuty"\]
+    P2 --> O[/"Vypiš hodiny a zbyleMinuty"/]
     O --> K([Konec])
 
     classDef vstup stroke:#1e88e5,stroke-width:2px
@@ -288,7 +288,7 @@ flowchart TD
     D3 -->|Ne| D4{"body ≥ 50 ?"}
     D4 -->|Ano| Z4["znamka ← 4"]
     D4 -->|Ne| Z5["znamka ← 5"]
-    Z1 --> O[\"Vypiš známku"\]
+    Z1 --> O[/"Vypiš známku"/]
     Z2 --> O
     Z3 --> O
     Z4 --> O
@@ -319,7 +319,7 @@ flowchart TD
     D1 -->|Ne| D2{"c > max ?"}
     A1 --> D2
     D2 -->|Ano| A2["max ← c"]
-    D2 -->|Ne| O[\"Vypiš max"\]
+    D2 -->|Ne| O[/"Vypiš max"/]
     A2 --> O
     O --> K([Konec])
 
@@ -344,7 +344,7 @@ flowchart TD
     S([Start]) --> V[/"Zadej věk od 0 do 120"/]
     V --> D{"vek ≥ 0 a zároveň vek ≤ 120 ?"}
     D -->|Ne| V
-    D -->|Ano| O[\"Vypiš: věk přijat"\]
+    D -->|Ano| O[/"Vypiš: věk přijat"/]
     O --> K([Konec])
 
     classDef vstup stroke:#1e88e5,stroke-width:2px
@@ -367,7 +367,7 @@ flowchart TD
     V --> D{"cislo = 0 ?"}
     D -->|Ne| P1["soucet ← soucet + cislo"]
     P1 --> V
-    D -->|Ano| O[\"Vypiš soucet"\]
+    D -->|Ano| O[/"Vypiš soucet"/]
     O --> K([Konec])
 
     classDef vstup stroke:#1e88e5,stroke-width:2px
