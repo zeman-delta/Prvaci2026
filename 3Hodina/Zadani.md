@@ -48,10 +48,10 @@ a program vypíše součet všech zadaných čísel.
 Kdo si nechce udělat v hlavě guláš před testem a být napřed, tak toto nedělá. 
 
 ## Úloha 16 
-Vypiš čísla od 1 do 10. každé na jeden řádek za použití jedné `cw`.
+Vypiš čísla od 1 do 10. každé na jeden řádek za použití jedné `cw`. (nepoužívat `Write()` ale `WriteLine()`)
 
 ## Úloha 17
-Vypiš čísla od 10 do 1. každé na jeden řádek za použití jedné `cw` a bez použítí `\n`.
+Vypiš čísla od 10 do 1. každé na jeden řádek za použití jedné `cw` a bez použítí `\n`. (nepoužívat `Write()` ale `WriteLine()`)
 
 ## Úloha 18
 vytvoř nekonečnou smyčkukterá se ukončí při zadání čísla jejož mocnina je 0. 
