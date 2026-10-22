@@ -45,4 +45,53 @@ public class Uloha13
             Console.WriteLine("Prohral jsi.");
         }
     }
+
+    public static void Uloha1()
+    {
+        Random rnd = new Random();
+
+        int pocitacCislo = rnd.Next(0, 3);
+        string pocitacVolba = "";
+
+        switch (pocitacCislo)
+        {
+            case 0:
+                pocitacVolba = "Kamen";
+                break;
+            case 1:
+                pocitacVolba = "Nuzky";
+                break;
+            case 2:
+                pocitacVolba = "Papir";
+                break;
+        }
+
+        Console.WriteLine("Zadej: Kamen, Nuzky, Papir");
+        string uzivatelVolba = Console.ReadLine();
+
+        if (uzivatelVolba != "Kamen" || uzivatelVolba != "Nuzky" || uzivatelVolba != "Papir") 
+        {
+            Console.WriteLine("neplatná volba.");
+        }
+        else
+        {
+            if (uzivatelVolba == pocitacVolba)
+            {
+                Console.WriteLine("remíza");
+            }
+            else if (
+                (uzivatelVolba == "Kamen" && pocitacVolba == "Nuzky")
+                || (uzivatelVolba == "Nuzky" && pocitacVolba == "Papir")
+                || (uzivatelVolba == "Papir" && pocitacVolba == "Kamen")
+                )
+            {
+                Console.WriteLine("Vyhral uživatel");
+            }
+            else
+            {
+                Console.WriteLine("Vyhral pocitac");
+            }
+        }
+    }
+    
 }
